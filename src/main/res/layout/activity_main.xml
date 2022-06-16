@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+     >
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_x="118dp"
+        android:layout_y="23dp"
+        android:text="Diary"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="110dp"
+        android:text="Date:"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/ddate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="105dp"
+        android:inputType="date"
+        android:hint="dd/mm/yy"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="51dp"
+        android:layout_x="135dp"
+        android:layout_y="179dp"
+        android:text="Start:"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ddata"
+        android:layout_width="377dp"
+        android:layout_height="307dp"
+        android:layout_x="14dp"
+        android:layout_y="231dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
+        android:layout_x="88dp"
+        android:layout_y="615dp"
+        android:background="@color/black"
+        android:text="✏️"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        android:layout_x="254dp"
+        android:layout_y="613dp"
+        android:background="@color/black"
+        android:text="❌"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_x="171dp"
+        android:layout_y="561dp"
+
+        android:background="@color/black"
+        android:text="👁️‍🗨️"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_x="166dp"
+        android:layout_y="659dp"
+        android:background="@color/black"
+        android:onClick="jp"
+        android:text="📚"
+        android:textSize="40sp" />
+
+</AbsoluteLayout>
